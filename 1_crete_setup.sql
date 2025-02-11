@@ -1,0 +1,14 @@
+CREATE DATABASE dentista_db
+	WITH OWNER = postgres 
+	ENCODING = 'UTF8' 
+	CONNECTION LIMIT = -1;
+
+CREATE SCHEMA comercio;
+
+CREATE TABLE usuarios (
+	id SERIAL PRIMARY KEY,
+	nombre VARCHAR (250) NOT NULL,
+	direccion VARCHAR (250) NOT NULL,
+	telefono VARCHAR (250) NOT NULL,
+	correo VARCHAR (250) NOT NULL
+);

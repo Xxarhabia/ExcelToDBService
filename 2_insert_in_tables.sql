@@ -1,0 +1,1 @@
+INSERT INTO usuarios VALUES ('1','Mario','carrera 12a','3152645215','mario@gmail.com','2','Juan','calle 10','3165485987','juan@gmail.com'),('1','Mario','carrera 12a','3152645215','mario@gmail.com','2','Juan','calle 10','3165485987','juan@gmail.com');
